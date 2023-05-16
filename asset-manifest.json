@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Github-App/static/css/main.2017dea9.css",
-    "main.js": "/Github-App/static/js/main.67131e23.js",
-    "index.html": "/Github-App/index.html",
-    "main.2017dea9.css.map": "/Github-App/static/css/main.2017dea9.css.map",
-    "main.67131e23.js.map": "/Github-App/static/js/main.67131e23.js.map"
+    "main.css": "/Github-App/signup/static/css/main.2017dea9.css",
+    "main.js": "/Github-App/signup/static/js/main.200e43f9.js",
+    "index.html": "/Github-App/signup/index.html",
+    "main.2017dea9.css.map": "/Github-App/signup/static/css/main.2017dea9.css.map",
+    "main.200e43f9.js.map": "/Github-App/signup/static/js/main.200e43f9.js.map"
   },
   "entrypoints": [
     "static/css/main.2017dea9.css",
-    "static/js/main.67131e23.js"
+    "static/js/main.200e43f9.js"
   ]
 }
