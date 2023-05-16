@@ -19,7 +19,7 @@ import {toast} from 'react-toastify'
 
 const Home = () => {
   const context = useContext(UserContext)
-  const[query, setQuery] = useState("")
+  const[query, setQuery] = useState("karnan7")
   const[user, setUser] = useState(null)
 
   const fetchDetails = async () => {
@@ -46,7 +46,7 @@ const Home = () => {
             onChange={(e) => {
               setQuery(e.target.value)
             }}
-            placeholder='username'
+            placeholder='Enter a username'
             />
             <Button onClick={fetchDetails} color='primary'>Fetch User</Button>
           </InputGroup>
