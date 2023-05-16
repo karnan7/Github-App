@@ -24,8 +24,8 @@ const SignIn = () => {
 
 	const context = useContext(UserContext)
 
-	const [email, setEmail] = useState("")
-	const [password, setPassword] = useState("")
+	const [email, setEmail] = useState("abc@example.com")
+	const [password, setPassword] = useState("123456")
 
 	const handleSignIn = () => {
 		firebase

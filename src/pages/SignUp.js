@@ -24,8 +24,8 @@ const SignUp = () => {
 
   const context= useContext(UserContext)
 
-  const [email, setEmail] = useState("")
-  const [password, setPassword] = useState("")
+  const [email, setEmail] = useState("abc@example.com")
+  const [password, setPassword] = useState("123456")
 
   const handleSignUp = () => {
     firebase
@@ -67,7 +67,7 @@ const SignUp = () => {
                       type='email'
                       name='email'
                       id='email'
-                      placeholder='Enter your email'
+                      placeholder='Eg. abc@example.com'
                       value={email}
                       onChange={e => setEmail(e.target.value)}
                     />

@@ -1,7 +1,6 @@
 import React,{useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// react-router
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 // toast
